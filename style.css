@@ -216,7 +216,7 @@ nav #icon {
     text-align: center;
 
     transition: all .5s ease;
-    filter: blur(.8px);
+    filter: blur(.79px);
 }
 
 .myDiv:hover {
