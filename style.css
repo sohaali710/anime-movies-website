@@ -55,20 +55,9 @@ nav {
 }
 
 .logo a:hover {
-    /* text-shadow: 2px 2px 20px black; */
-
     transform: scale(1.2, 1.2);
 }
 
-
-
-/* .nav{
-    width: 55%;
-    height: 44px;
-
-    display: flex;
-    align-items: center;
-} */
 nav ul {
     width: 55%;
     margin-right: 20px;
@@ -106,8 +95,6 @@ nav ul li a:hover {
     border-radius: 5px;
 
     transform: scale(1.2, 1.2);
-
-    /* text-shadow: 10px 10px 20px black; */
 }
 
 nav #icon {
@@ -137,7 +124,6 @@ nav #icon {
     }
 
     nav ul {
-        /* display: none; */
         position: fixed;
         left: -1000px;
         top: 69.4px;
@@ -230,7 +216,7 @@ nav #icon {
     text-align: center;
 
     transition: all .5s ease;
-    filter: blur(.79px);
+    filter: blur(.8px);
 }
 
 .myDiv:hover {
@@ -251,9 +237,6 @@ nav #icon {
 }
 
 .myDiv a {
-    /* height: 30%;
-    display: inline-block; */
-
     color: #000;
     text-decoration: none;
 }
@@ -334,21 +317,6 @@ nav #icon {
         width: 65%;
     }
 }
-
-/* @media (max-width:768px) {
-
-    .selectedMovie {
-        display: flex;
-    }
-
-    .myMovie {
-        width: 34%;
-    }
-
-    .details {
-        width: 65%;
-    }
-} */
 
 @media (max-width:768px) {
 

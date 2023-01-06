@@ -1,7 +1,6 @@
 const baseLink = "https://api.themoviedb.org/3";
 const path = "/discover/movie?certification_country=US&certification=G&sort_by=popularity.desc";
 const APIKey = "&api_key=6eaabb81439b3ad146d593a4f2b7471c";
-// https://api.themoviedb.org/3/discover/movie?certification_country=US&certification=G&sort_by=popularity.desc&api_key=6eaabb81439b3ad146d593a4f2b7471c
 
 const URL = baseLink + path + APIKey;
 
