@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation Movies</title>
+    <link rel="shortcut icon" href="assets/paw-solid.svg" type="image/x-icon">
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,26 +37,7 @@
 
     </div>
 
-    <script>
-        let icon = document.getElementById("icon");
-        let ul = document.querySelector("nav ul");
-        let nav = document.querySelector("nav");
-
-        console.log(nav)
-
-        let flag = 1;
-
-        icon.onclick = function () {
-            if (flag) {
-                ul.classList = "show";
-                flag = 0;
-            } else {
-                ul.removeAttribute("class");
-                flag = 1;
-            }
-        }
-
-    </script>
+    <script src="navbar-toggler.js"></script>
     <script src="script.js"></script>
 </body>
 
