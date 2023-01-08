@@ -1,4 +1,4 @@
-# anime-movies-website
+# Anime Movies Website
 
 <h6>Technologies used:</h6>
 <ul>
