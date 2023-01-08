@@ -4,5 +4,5 @@
 <ul>
   <li>HTML</li>
   <li>CSS</li>
-  <li>JS : practice on fetch api data</li>
+  <li>JS : practice on fetch api</li>
 </ul>
