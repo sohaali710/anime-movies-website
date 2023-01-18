@@ -1,21 +1,25 @@
+:root {
+    --dark-blue: #0C103B;
+    --light-gray: rgb(235, 235, 235);
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    /* background-color: rgb(176, 196, 222,.2); */
-    background-color: rgb(160, 148, 134, .3);
+    color: var(--dark-blue);
+    background-color: var(--light-gray);
 
     height: 100vh;
-    /* color: #0C103B; */
+
 }
 
 nav {
     font-family: 'Bebas Neue', cursive;
 
-    /* background-color: #8da5e2; */
-    background-color: #a09486;
+    background-color: var(--dark-blue);
 
     width: 100%;
 
@@ -29,8 +33,7 @@ nav {
 
     font-size: 26px;
 
-    box-shadow: 0 5px 15px black;
-
+    box-shadow: 0 5px 15px var(--dark-blue);
 }
 
 
@@ -45,10 +48,9 @@ nav {
 
 .logo a {
     text-decoration: none;
-    /* color: #0C103B; */
-    color: black;
+    color: var(--light-gray);
 
-    text-shadow: 2px 2px 20px black;
+    text-shadow: 2px 2px 20px var(--light-gray);
 
     display: inline-block;
     transition: all .5s ease;
@@ -78,11 +80,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--light-gray);
 
     padding: 2px 5px;
 
-    text-shadow: 2px 2px 20px black;
+    text-shadow: 2px 2px 20px var(--light-gray);
 
     transition: all .5s ease;
 
@@ -90,8 +92,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: aliceblue;
-    border: 2px solid aliceblue;
+    color: var(--light-gray);
+    border: 2px solid var(--light-gray);
     border-radius: 5px;
 
     transform: scale(1.2, 1.2);
@@ -100,7 +102,8 @@ nav ul li a:hover {
 nav #icon {
     font-size: 34px;
     margin-right: 25px;
-    text-shadow: 2px 2px 20px black;
+    color: var(--light-gray);
+    text-shadow: 2px 2px 20px var(--light-gray);
 
     cursor: pointer;
 
@@ -125,14 +128,16 @@ nav #icon {
     width: 65%;
 
     margin: auto;
-
+    margin-top: 70px;
     padding: 100px 50px;
-    border: #000 3px solid;
+
+    border: var(--dark-blue) 3px solid;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px var(--dark-blue);
 
     font-size: 50px;
 
-    text-shadow: 2px 2px 20px black;
+    text-shadow: 2px 2px 20px var(--dark-blue);
 }
 
 
@@ -141,10 +146,10 @@ nav #icon {
     width: 280px;
     height: 450px;
 
-    background-color: #a09486;
+    background-color: var(--light-gray);
 
     border-radius: 10px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px var(--dark-blue);
 
     margin: 20px;
     margin-bottom: 80px;
@@ -155,6 +160,10 @@ nav #icon {
 
     transition: all .5s ease;
     filter: blur(.79px);
+}
+
+.myMovie {
+    filter: none;
 }
 
 .myDiv:hover {
@@ -170,7 +179,7 @@ nav #icon {
 
     border-radius: 10px 10px 0 0;
 
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px var(--dark-blue);
 
 }
 
@@ -182,6 +191,7 @@ nav #icon {
 .tit {
     height: 30%;
     font-size: 21px;
+    color: var(--dark-blue);
 
     overflow: hidden;
 }
@@ -215,10 +225,11 @@ nav #icon {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
 
         left: 0;
 
-        background-color: #a09486;
+        background-color: var(--dark-blue);
     }
 }
 
@@ -268,7 +279,7 @@ nav #icon {
 
 .details {
     border-radius: 10px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px var(--dark-blue);
 
     margin: 20px;
     margin-bottom: 80px;
@@ -336,6 +347,7 @@ nav #icon {
 
     .details {
         width: 95%;
+        padding: 1rem;
     }
 }
 
