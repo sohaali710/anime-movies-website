@@ -5,6 +5,6 @@ It's a responsive website using:
 - CSS
 - Javascript
 
-See the website live:
+Link:
 
 https://sohaali710.github.io/anime-movies-website/
