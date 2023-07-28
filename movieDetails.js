@@ -15,11 +15,11 @@ function getMovieDetails(url) {
 
     fetch(url).then(res => res.json()).then(data => {
 
-        console.log(data.results);
-        console.log(data.results.shift());
-
+        console.log(data.results.splice);
 
         const selectedMovieId = location.search.split("=")[1];
+        console.log(location.search)
+        console.log(selectedMovie)
 
         data.results.forEach(movie => {
             const { title, id, poster_path, overview } = movie;
