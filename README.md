@@ -1,8 +1,10 @@
 # Anime Movies Website
 
-<h6>Technologies used:</h6>
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JS : practice on fetch api</li>
-</ul>
+It's a responsive website using:
+- HTML
+- CSS
+- Javascript
+
+Link:
+
+https://sohaali710.github.io/anime-movies-website/
